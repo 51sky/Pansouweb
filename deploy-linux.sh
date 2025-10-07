@@ -219,7 +219,7 @@ deploy_application() {
     # 克隆代码（如果是从Git部署）
     if [ ! -d ".git" ]; then
         log_info "从Git仓库克隆代码..."
-        git clone https://github.com/your-repo/pansou-web.git .
+        git clone https://github.com/51sky/Pansouweb.git .
     else
         log_info "更新代码..."
         git pull origin main
