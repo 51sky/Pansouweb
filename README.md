@@ -15,7 +15,7 @@
 
 ```bash
 # 下载部署脚本
-wget https://raw.githubusercontent.com/your-repo/pansou-web/main/deploy-linux.sh
+wget https://raw.githubusercontent.com/51sky/Pansouweb/refs/heads/main/deploy-linux.sh
 
 # 赋予执行权限
 chmod +x deploy-linux.sh
@@ -268,4 +268,5 @@ ps aux | grep -v grep | grep -E "(miner|backdoor)"
 本项目采用 MIT 许可证。详情请查看 LICENSE 文件。
 
 ---
+
 *最后更新：2024年12月*
